@@ -764,5 +764,6 @@ if __name__ == "__main__":
     custom_css = """
     .gradio-container { max-width: 1350px !important; }
     """
+    port = int(os.getenv("PORT", 7860))
     page = build_app()
-    page.launch(server_port=7860, css=custom_css, show_error=True)
+    page.launch(server_name="0.0.0.0", server_port=port, css=custom_css, show_error=True)
