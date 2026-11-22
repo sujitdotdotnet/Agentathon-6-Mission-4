@@ -1,0 +1,8 @@
+{
+  "organization": "Apex FinTech Services",
+  "security_engineer": "Maya, Principal AppSec Engineer",
+  "primary_tech_stack": "Python 3.12, FastAPI, SQLAlchemy, PostgreSQL",
+  "target_environment": "AWS EKS",
+  "compliance_framework": "PCI-DSS v4.0, SOC2 Type II",
+  "remediation_policy": "Parameterized queries, zero raw SQL, zero downtime DB migrations, mandatory pytest regression tests"
+}
